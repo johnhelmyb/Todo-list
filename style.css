@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+h1 {
+	color: rgb(2, 2, 2);
+	font-size: 2rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: system;
+}
+
+.title{
+	color: rgb(9, 60, 126);
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inputBox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 25px;
+    width: 40px;
+    background-color: rgb(9, 60, 126);
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 10px solid rgb(0, 0, 0);
+	margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: rgb(0, 0, 0);
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border:black;
+	color: rgb(0, 84, 194);
+	font-size: 2.5rem;
+	font-family: system;
+	margin: 0 1rem;
+    padding: 0 2px;
+	cursor: pointer;
+}
+
+.remove{
+	background: rgb(163, 23, 46);
+	height: 10px;
+    width: 30px;
+    margin: 1rem;
+}
