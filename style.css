@@ -16,7 +16,7 @@ h1 {
 	font-weight: 50;
 	text-align: center;
 	margin: 1rem 0 3rem; 
-	font-family: system;
+	font-family: "Lucida"" Bright;
 }
 
 .title{
@@ -46,7 +46,7 @@ h1 {
     width: 350px;
     margin: 0.25rem;
     transition: .5s;
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
 
 .add{
@@ -55,7 +55,7 @@ h1 {
     height: 40px;
     border-radius: 25px;
     width: 40px;
-    background-color: rgb(9, 60, 126);
+    background-color: rgb(245, 245, 245);
     color: rgb(7, 7, 7);
     cursor: pointer;
     transition: .5s;
@@ -77,7 +77,7 @@ h1 {
 
 .item{
 	padding: 0.5rem;
-	border-bottom: 10px solid rgb(0, 0, 0);
+	border-bottom: 8px solid rgb(0, 0, 0);
 	margin-bottom: 1.5rem;
     border-radius: 10px;
 }
@@ -87,7 +87,7 @@ h1 {
 	outline: none;
 	border: none;
 	color: rgb(0, 0, 0);
-	font-size: 1.4rem;
+	font-size: 1.1rem;
 	width: 245px;
 }
 
@@ -96,16 +96,15 @@ h1 {
 	outline: none;
 	border:black;
 	color: rgb(0, 84, 194);
-	font-size: 2.5rem;
-	font-family: system;
+	font-size: 2rem;
+	font-family: "Lucida"" Bright;
 	margin: 0 1rem;
     padding: 0 2px;
 	cursor: pointer;
 }
 
 .remove{
-	background: rgb(163, 23, 46);
-	height: 10px;
-    width: 30px;
+
     margin: 1rem;
+	font-size: 1rem;
 }

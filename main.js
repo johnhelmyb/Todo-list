@@ -27,12 +27,12 @@ class item{
 
     	var edit = document.createElement('button');
     	edit.classList.add('edit');
-    	edit.innerHTML = "+";
+    	edit.innerHTML = "✍︎";
     	edit.addEventListener('click', () => this.edit(input, name));
 
     	var remove = document.createElement('button');
     	remove.classList.add('remove');
-    	remove.innerHTML = "";
+    	remove.innerHTML = "✕";
     	remove.addEventListener('click', () => this.remove(itemBox, name));
 
     	container.appendChild(itemBox);
