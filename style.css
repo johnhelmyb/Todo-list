@@ -16,7 +16,7 @@ h1 {
 	font-weight: 50;
 	text-align: center;
 	margin: 1rem 0 3rem; 
-	font-family: "Lucida"" Bright;
+	font-family: "Lucida" Bright;
 }
 
 .title{
@@ -97,7 +97,7 @@ h1 {
 	border:black;
 	color: rgb(0, 84, 194);
 	font-size: 2rem;
-	font-family: "Lucida"" Bright;
+	font-family: "Lucida" Bright;
 	margin: 0 1rem;
     padding: 0 2px;
 	cursor: pointer;
